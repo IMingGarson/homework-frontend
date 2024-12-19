@@ -28,8 +28,10 @@ This is the frontend application for the Employee Performance Review system. Bui
 ### **Steps**
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd frontend
+git clone https://github.com/IMingGarson/homework-frontend.git
+
+cd homework-frontend
+
 yarn dev
 # or
 pnpm dev
