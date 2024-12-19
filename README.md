@@ -1,12 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Overview
+This is the frontend application for the Employee Performance Review system. Built with Next.js and TailwindCSS, it provides an interface for administrators and employees to manage performance reviews and feedback.
 
-## Getting Started
+## **Pages and URLs**
+### **Admin Pages**
+1. **Login Page**: `/admin/login`
+   - URL: [http://localhost:3000/admin/login](http://localhost:3000/admin/login)
+   - Description: Admin login page.
 
-First, run the development server:
+2. **Admin Panel**: `/admin`
+   - URL: [http://localhost:3000/admin](http://localhost:3000/admin)
+   - Description: Panel for administrators to manage employees, reviews, and feedback.
 
+### **Employee Pages**
+1. **Employee Dashboard**: `/employee`
+   - URL: [http://localhost:3000/employee](http://localhost:3000/employee)
+   - Description: Dashboard for employees to view assigned reviews and participation tasks.
+
+---
+
+## **How to Run the Project Locally**
+
+### **Requirements**
+- Node.js (v18 or higher)
+- NPM or Yarn
+- Docker (optional, for containerized deployment)
+
+### **Steps**
+1. Clone the repository:
 ```bash
-npm run dev
-# or
+git clone <repository-url>
+cd frontend
 yarn dev
 # or
 pnpm dev
@@ -14,11 +37,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000/admin/login](http://localhost:3000/admin/login) with your browser to see the result.
 
 ## Learn More
 
