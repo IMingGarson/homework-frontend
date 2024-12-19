@@ -4,6 +4,7 @@ node_modules
 # Ignore local development build outputs
 build
 dist
+.next
 
 # Ignore environment variables (keep them private)
 .env

@@ -15,7 +15,7 @@ interface Review {
   description: string;
   status: string;
   feedbacks: Feedback[];
-  participants: { name: string };
+  employee: { name: string };
 }
 
 export default function ReviewTable() {
@@ -27,7 +27,7 @@ export default function ReviewTable() {
     description: "",
     status: "",
     feedbacks: [],
-    participants: { name: "" },
+    employee: { name: "" },
   });
 
   useEffect(() => {
@@ -94,7 +94,7 @@ export default function ReviewTable() {
               className="border-b hover:bg-gray-50 transition"
             >
               <td className="p-3">{review.id}</td>
-              <td className="p-3">{review.participants.name}</td>
+              <td className="p-3">{review.employee.name}</td>
               <td className="p-3">{review.title}</td>
               <td className="p-3">{review.description || "N/A"}</td>
               <td className="p-3">
