@@ -31,7 +31,15 @@ This is the frontend application for the Employee Performance Review system. Bui
 git clone https://github.com/IMingGarson/homework-frontend.git
 
 cd homework-frontend
+```
 
+2. Prepare .env
+```bash
+JWT_SECRET=
+```
+
+3. Run locally
+```bash
 yarn dev
 # or
 pnpm dev
